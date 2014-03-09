@@ -1,0 +1,14 @@
+parameters:
+    database_driver: pdo_mysql
+    database_host: 127.0.0.1
+    database_port: null
+    database_name: digalDb
+    database_user: root
+    database_password: null
+    mailer_transport: 
+    mailer_host:  
+    mailer_user: 
+    mailer_password: 
+    locale: en
+    secret: d5467846365a7c14652732e9f3b9f1a2995ce6f1
+    database_path: null

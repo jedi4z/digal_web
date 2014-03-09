@@ -1,0 +1,3 @@
+web_index:
+    pattern:  /
+    defaults: { _controller: WebBundle:Index:index }
