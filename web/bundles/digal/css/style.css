@@ -30,37 +30,21 @@ body {
     color:#ecedef;
     position:relative;
     min-width:960px;
-    background: url(../images/callout.jpg) no-repeat center center fixed;
+    background-color: #FFC711;
 }
-
-.ic {
-    border:0;
-    float:right;
-    background:#fff;
-    color:#f00;
-    width:50%;
-    line-height:10px;
-    font-size:10px;
-    margin:-220% 0 0 0;
-    overflow:hidden;
-    padding:0
-}
-
 h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
-    font-family: 'Gafata', sans-serif;
-    color: #ecedef;
+    font-family: 'Roboto Condensed', sans-serif;
 }
-
-h2 {
-    font-size: 60px;
+h2{
+    font-size: 68px;
     padding-top: 101px;
     line-height: 60px;
     text-align: center;
+    color: #000000;
 }
-
-h3 {
-    font-size: 48px;
+h3{
+    font-size: 57px;
     line-height: 44px;
 }
 
@@ -233,12 +217,12 @@ header h1 a img {
 }
 
 #page3:after {
-    border-color: #3f9fc9 transparent transparent transparent;
+    border-color: #90288D transparent transparent transparent;
 
 }
 
 #page4:after {
-    border-color: #FF6666 transparent transparent transparent;
+    border-color: #ED1C24 transparent transparent transparent;
 
 }
 
@@ -248,7 +232,7 @@ header h1 a img {
 }
 
 #page6:after {
-    border-color: #E6E6E6 transparent transparent transparent;
+    border-color: #FFC711 transparent transparent transparent;
 
 }
 
@@ -289,7 +273,7 @@ header.page6 .men5 .hover{
 }
 
 #page2 {
-    background-color: #3f9fc9;
+    background-color: #90288D;
     color: #FFFFFF;
     padding-top: 150px;
     padding-bottom: 200px;
@@ -299,36 +283,32 @@ header.page6 .men5 .hover{
 }
 
 #page3 {
-    background-color: #FF6666;
+    background-color: #ED1C24;
     padding-top: 150px;
     padding-bottom: 200px;
 }
 
 #page4 {
     background-color: #FFFFFF;
-    color: #333333;
+    color: #000000;
 }
 #page4 h3{
-    color: #333333;
+    color: #000000;
 }
 #page5 {
-    background-color: #E6E6E6;
+    background-color: #FFC711;
     padding-bottom: 200px;
-    color: #333333;
+    color: #000000;
 }
 #page5 h3{
-    color: #333333;
+    color: #000000;
 }
 #page6 {
     background: url(../images/callout2.jpg) no-repeat center center fixed;
 }
 
-.content {
-}
-
 .slogan h3 {
     margin-bottom: 30px;
-    font-family: 'Tauri', sans-serif;
 }
 
 #page2 h3 span {
@@ -475,28 +455,9 @@ header.page6 .men5 .hover{
     padding-top: 150px;
     padding-bottom: 190px;
 }
-.companies img {
-    margin-bottom: 19px;
-}
-
-.companies .text1 {
-    margin-bottom: 9px;
-}
-
-.companies a {
-    display: inline-block;
-    color: #b288ab;
-    padding-right: 12px;
-    background: url(../images/link_marker.png) right 4px no-repeat;
-    margin-top: 14px;
-}
-
-.companies a:hover {
-    color: #fff;
-}
 
 .companies .clear {
-    height: 114px;
+    height: 50px;
 }
 
 #page6 {
