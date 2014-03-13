@@ -27,32 +27,25 @@ a[href^="tel:"] {
 
 body {
     font: 13px  'Exo 2', sans-serif;;
-    color:#ecedef;
+    color:#FFFFFF;
     position:relative;
     min-width:960px;
-    background-color: #FFC711;
+    background-color: #067FB2;
 }
 h1, h2, h3, h4, h5, h6 {
-    font-weight: normal;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    font-family: 'Metrophobic', sans-serif;
 }
 h2{
-    font-size: 68px;
+    font-size: 58px;
     padding-top: 101px;
     line-height: 60px;
     text-align: center;
-    color: #000000;
+    color: #FFFFFF;
 }
 h3{
-    font-size: 57px;
+    font-size: 45px;
     line-height: 44px;
-}
-
-h4 {
-    font-size: 18px;
-    line-height: 14px;
-    padding: 10px;
-    font-weight: bold;
 }
 
 p {
@@ -70,10 +63,6 @@ ul {
     padding: 0;
     margin: 0;
     list-style: none;
-}
-
-ul.list{
-
 }
 
 /*links*/
@@ -159,7 +148,6 @@ header {
     z-index: 999;
     left: 0;
     right: 0;
-    padding-bottom: 10px;
     top: 0;
     overflow: hidden;
     background-color: #000000;
@@ -168,12 +156,8 @@ header {
     -webkit-transition: 0.2s ease;
 
 }
-
-
-
-
 h1 {
-    padding-top: 28px;
+    padding: 13px;
     float: left;
     z-index: 999;
 
@@ -181,8 +165,6 @@ h1 {
 header h1 a {
     display: block;
     overflow: hidden;
-    width: 120px;
-    height: 60px;
     text-indent: -999px;
     transition: 0s ease;
     -o-transition: 0s ease;
@@ -191,6 +173,7 @@ header h1 a {
 
 header h1 a img {
     display: block;	
+    height: 65px;
 }
 
 /*Content*/
@@ -311,18 +294,9 @@ header.page6 .men5 .hover{
     margin-bottom: 30px;
 }
 
-#page2 h3 span {
-    background-color: #2aae96;
-}
-
 #page2 h3 span, #page2 h3 em {
     display: inline-block;
     padding: 0 3px;
-}
-
-#page2 h3 em {
-    font-style: normal;
-    background-color: #7f4c76;
 }
 
 .socials {

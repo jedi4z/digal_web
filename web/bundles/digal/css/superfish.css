@@ -42,7 +42,7 @@ nav{ position:relative;padding: 0px 0 0 0;}
     right: 0;
     height: 100%;
     top: -100%;
-    background-color: #FFC711;
+    background-color: #067FB2;
 }
 
 .sf-menu>li.sfHover .hover, .sf-menu>li:hover .hover{
@@ -55,7 +55,6 @@ nav{ position:relative;padding: 0px 0 0 0;}
 .sf-menu li ul,.sf-menu li.sfHover>ul{
     top:74px;
     left: 114px;
-
     width: 141px;
     z-index: 999; 
     padding-top: 28px;
