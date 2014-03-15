@@ -1,0 +1,58 @@
+{%extends "WebBundle:Templates:template.html.twig"%}
+
+{%block title%} {{parent()}}Nosotros {%endblock%}
+
+{%block description%}{%endblock%}
+
+{%block keywords%}remeras estampadas,banners,ploteados,llaveros publicitarios,llaveros cinta
+buzos estampados,camperas estampadas,calcos publicitarias,domes,diseño web cordoba,
+marketing,publicidad cordoba{%endblock%}
+
+{%block stylesheets%}
+	{{parent()}}
+	<link rel="stylesheet" href="{{asset ('bundles/digal/css/about.css')}}">
+{%endblock%}
+
+{%block content%} 
+	<!-- contentAbout -->
+	<div id="contentAbout">
+		<div id="blockLeft">
+			<h1>CONOCENOS MEJOR!</h1>
+			<p>
+				Comenzamos a fines del 2012 con la idea ofrecer distintos servicios publicitarios a empresas Cordobesas, hoy en día tenemos una gran cartera de clientes con una importante misión; hacerlos felices.
+				Para ello, brindamos un servicio de asesoramiento permanente sin cargo sobre "ideas originales" de acuerdo a cada promoción o evento, así como el desarrollo de productos exclusivos bajo pedido, merchandising, papelería corporativa, SEO y diseño web. 
+			</p>
+			<h2>¿Cual es nuestro propósito?</h2>
+			<p>
+				Nos implicamos absolutamente en los proyectos que aceptamos. Más que un proveedor de servicios, somos tus aliados estratégicos. Garantizamos la transparencia y confidencialidad en cada aspecto del trabajo. Encontrar la mejor opción a tu propuesta implica complicidad y consenso, tanto en los objetivos como en las pautas para lograrlos.
+			</p>
+			<h2>Nuestros puntos fuertes?</h2>
+			<p>
+				<ul>
+					<li>Cuidamos todos los detalles</li>
+					<li>Nuestra atención es personalizada</li>
+					<li>Cada cliente es diferente, proponemos soluciones a su medida</li>
+				</ul>	
+			</p>
+		</div>
+		<div id="blockRight">
+			<div id="clients">
+				<h2>Nuestros clientes</h2>
+				<img src="{{asset ('bundles/digal/images/clients/batistella.png')}}" alt="batistella">
+				<img src="{{asset ('bundles/digal/images/clients/holiday_inn.png')}}" alt="holiday inn">
+				<img src="{{asset ('bundles/digal/images/clients/startupweekendcordoba.png')}}" alt="startup weekend cordoba">
+				<img src="{{asset ('bundles/digal/images/clients/allus_bpo_center.png')}}" alt="allus bpo center">
+			</div>
+			<div id="tweets">
+				<h2>Seguinos en Twitter!</h2>
+				<a class="twitter-timeline" href="https://twitter.com/digalArg" data-widget-id="444524597333860352">Tweets por @digalArg</a>
+				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+				</script>
+			</div>
+		</div>
+	</div>
+{%endblock%}
+
+{%block scripts%}
+	{{parent()}}
+{%endblock%}

@@ -10,3 +10,6 @@ web_our_services:
 web_our_services_tshirt:
     pattern:  /nuestros-servicios/remeras-estampadas
     defaults: { _controller: WebBundle:OurServices:tshirt }
+web_our_services_keychain_ribbon:
+    pattern:  /nuestros-servicios/llaveros-cinta-publicitarios
+    defaults: { _controller: WebBundle:OurServices:keychainRibbon }
