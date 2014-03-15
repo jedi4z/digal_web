@@ -1,3 +1,12 @@
-web_index:
+web_home:
     pattern:  /
-    defaults: { _controller: WebBundle:Index:index }
+    defaults: { _controller: WebBundle:Home:home }
+web_about:
+    pattern:  /nosotros
+    defaults: { _controller: WebBundle:About:about }
+web_our_services:
+    pattern:  /nuestros-servicios
+    defaults: { _controller: WebBundle:OurServices:ourServices }
+web_our_services_tshirt:
+    pattern:  /nuestros-servicios/remeras-estampadas
+    defaults: { _controller: WebBundle:OurServices:tshirt }
