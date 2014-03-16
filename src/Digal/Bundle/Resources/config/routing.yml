@@ -21,3 +21,9 @@ web_our_services_keychain_poli:
 web_our_services_cushion:
     pattern:  /nuestros-servicios/almohadones-publicitarios
     defaults: { _controller: WebBundle:OurServices:cushion }
+web_our_services_cover:
+    pattern:  /nuestros-servicios/fundas-publicitarias
+    defaults: { _controller: WebBundle:OurServices:cover }
+web_our_services_bag:
+    pattern:  /nuestros-servicios/bolsas-ecologicas-publicitarias
+    defaults: { _controller: WebBundle:OurServices:bag }

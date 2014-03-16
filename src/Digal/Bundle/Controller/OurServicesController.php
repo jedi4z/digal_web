@@ -24,9 +24,17 @@ class OurServicesController extends Controller {
     public function keychainPoliAction() {
         return $this->render('WebBundle:OurServices:keychain_poli.html.twig');
     }
-    
+
     public function cushionAction() {
         return $this->render('WebBundle:OurServices:cushion.html.twig');
+    }
+
+    public function coverAction() {
+        return $this->render('WebBundle:OurServices:cover.html.twig');
+    }
+
+    public function bagAction() {
+        return $this->render('WebBundle:OurServices:bag.html.twig');
     }
 
 }
