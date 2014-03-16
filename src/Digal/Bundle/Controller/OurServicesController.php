@@ -17,9 +17,16 @@ class OurServicesController extends Controller {
         return $this->render('WebBundle:OurServices:tshirt.html.twig');
     }
 
-        public function keychainRibbonAction() {
+    public function keychainRibbonAction() {
         return $this->render('WebBundle:OurServices:keychain_ribbon.html.twig');
     }
 
+    public function keychainPoliAction() {
+        return $this->render('WebBundle:OurServices:keychain_poli.html.twig');
+    }
+    
+    public function cushionAction() {
+        return $this->render('WebBundle:OurServices:cushion.html.twig');
+    }
 
 }

@@ -1,42 +1,42 @@
 {%extends "WebBundle:Templates:template.html.twig"%}
 
 {%block stylesheets%}
-	{{parent()}}
-	<link rel="stylesheet" href="{{asset ('bundles/digal/css/our_services.css')}}">
+{{parent()}}
+<link rel="stylesheet" href="{{asset ('bundles/digal/css/our_services.css')}}">
 {%endblock%}
 
 {%block content%} 
-	<!-- contentItem -->
-	<div id="contentItem">
-		<div id="blockLeft">
-			{%block blockleft%}{%endblock%}
-		</div>
-		<div id="blockRight">
-			<div id="subBlock1">
-				{%block subblock1%}{%endblock%}
-			</div>
-			<div id="subBlock2">
+<!-- contentItem -->
+<div id="contentItem">
+         <div id="blockLeft">
+                {%block blockleft%}{%endblock%}
+        </div>
+        <div id="blockRight">
+            <div id="subBlock1">
+	{%block subblock1%}{%endblock%}
+                </div>
+                <div id="subBlock2">
 				{%block subblock2%}{%endblock%}
-			</div>
-			<div id="subBlock3">
-				<h2>Mas productos</h2>
-				<ul>
-					<li><a href="{{ path('web_our_services_tshirt') }}">REMERAS ESTAMPADAS</a></li>
-					<li><a href="{{ path('web_our_services_keychain_ribbon') }}">LLAVEROS CINTA</a></li>
-					<li><a href="">LLAVEROS POLIMERO</a></li>
-					<li><a href="">ALMOHADONES ESTAMPADOS</a></li>
-					<li><a href="">FUNDAS</a></li>
-					<li><a href="">BOLSAS ECOLÓGICAS</a></li>
-					<li><a href="">BUZOS ESTAMPADOS</a></li>
-					<li><a href="">DOMES</a></li>
-					<li><a href="">STICKERS</a></li>
-					<li><a href="">PAD MOUSE</a></li>				
-				</ul>
-			</div>
-		</div>
-	</div>
+                    </div>
+                    <div id="subBlock3">
+                        <h2>Más de nuestros productos</h2>
+                        <ul>
+                            <li><a href="{{ path('web_our_services_tshirt') }}">REMERAS ESTAMPADAS</a></li>
+                            <li><a href="{{ path('web_our_services_keychain_ribbon') }}">LLAVEROS CINTA</a></li>
+                            <li><a href="{{ path('web_our_services_keychain_poli') }}">LLAVEROS POLIMERO</a></li>
+                            <li><a href="{{ path('web_our_services_cushion') }}">ALMOHADONES ESTAMPADOS</a></li>
+                            <li><a href="">FUNDAS</a></li>
+                            <li><a href="">BOLSAS ECOLÓGICAS</a></li>
+                            <li><a href="">BUZOS ESTAMPADOS</a></li>
+                            <li><a href="">DOMES</a></li>
+                            <li><a href="">STICKERS</a></li>
+                            <li><a href="">PAD MOUSE</a></li>				
+                        </ul>
+                    </div>
+            </div>
+</div>
 {%endblock%}
 
 {%block scripts%}
-	{{parent()}}
+{{parent()}}
 {%endblock%}

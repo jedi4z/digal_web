@@ -1,41 +1,41 @@
 div#contentAbout{
-	overflow: hidden;
+    overflow: hidden;
 }
 div#contentAbout h1, h2{
-	margin: 2em 0 1em 0;
+    margin: 2em 0 1em 0;
 }
 div#contentAbout div#blockLeft{
-	padding: 0 2em;
-	display: inline-block;
-	vertical-align: top;
-	max-width: 46em;
-	height: auto;
+    padding: 0 2em;
+    display: inline-block;
+    vertical-align: top;
+    max-width: 46em;
+    height: auto;
 }
 div#contentAbout div#blockRight{
-	padding: 1em;
-	border-left: 1px dashed #D1D1D1;
-	display: inline-block;
-	vertical-align: top;
-	max-width: 46em;
-	min-width: 25em;
-	min-height: 38em;
-	height: auto;
+    padding: 1em;
+    border-left: 1px dashed #D1D1D1;
+    display: inline-block;
+    vertical-align: top;
+    max-width: 46em;
+    min-width: 25em;
+    min-height: 38em;
+    height: auto;
 }
 div#contentAbout div#blockRight div#clients{
-	text-align: center;
-	margin-bottom: 3em;
-	max-width: 25em;
-	display: block;
+    text-align: center;
+    margin-bottom: 3em;
+    max-width: 25em;
+    display: block;
 }
 div#contentAbout div#blockRight div#clients img{
-	width: 130px;
+    width: 130px;
 }
 div#contentAbout div#blockRight div#tweets{
-	text-align: center;
-	margin-bottom: 3em;
-	max-width: 25em;
-	display: block;
+    text-align: center;
+    margin-bottom: 3em;
+    max-width: 25em;
+    display: block;
 }
 div#contentAbout div#blockRight div#clients h3, div#tweets h3{
-	text-align: left;
+    text-align: left;
 }

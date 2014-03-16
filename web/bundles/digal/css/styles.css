@@ -2,155 +2,155 @@
 
 /* ===== header ===== */
 header{
-	background-color: #000000;
-	overflow: hidden;
-	padding: 0;
+    background-color: #000000;
+    overflow: hidden;
+    padding: 0;
 }
 header #logo{
-	display: inline-block;
-	margin: 0.5em 5em;
-	float: left;
+    display: inline-block;
+    margin: 0.5em 5em;
+    float: left;
 }
 header #logo img{
-	max-height: 4em;
-	min-height: 4em;
-	margin: 0;
+    max-height: 4em;
+    min-height: 4em;
+    margin: 0;
 }
 
 /* ===== nabvar ===== */
 
 div#navbar{
-	color: #F1F1F1;
-	background-color: #333;
-	overflow: hidden;
-	margin: 0;
-	padding: 0;
+    color: #F1F1F1;
+    background-color: #333;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
 }
 div#navbar ul{
-	float: right;
-	display: block;
-	margin: 0 2em 0 0;
-	padding: .5em;
-	list-style: none;
+    float: right;
+    display: block;
+    margin: 0 2em 0 0;
+    padding: .5em;
+    list-style: none;
 }
 div#navbar ul li{
-	float: left;
+    float: left;
 }
 div#navbar ul li a{
-	display: block;
-	margin-left: .8em;
+    display: block;
+    margin-left: .8em;
 }
 div#navbar ul li a:hover{
-	background-color: #F1F1F1;
-	color: #000000
+    background-color: #F1F1F1;
+    color: #000000
 }
 
 /* ===== contactForm ===== */
 
 div#contactForm{
-	background-color: #444444;
-	color: #F1F1F1;
-	padding: 1em 2em;
+    background-color: #444444;
+    color: #F1F1F1;
+    padding: 1em 2em;
 }
 div#contactForm div#blockLeft, div#blockCenter, div#blockRight{
-	display: inline-block;
-	padding: 1em;
-	vertical-align: top;
+    display: inline-block;
+    padding: 1em;
+    vertical-align: top;
 
 }
 div#contactForm div#blockCenter input#inputName, input#inputEmail{
-	border: none;
-	background-color: #777;
-	color: #f1f1f1;
-	width: 30em;
-	height: 3em;
-	margin-bottom: 1em;
-	padding: .5em;
+    border: none;
+    background-color: #777;
+    color: #f1f1f1;
+    width: 30em;
+    height: 3em;
+    margin-bottom: 1em;
+    padding: .5em;
 }
 div#contactForm div#blockCenter input#buttonSend{
-	border: none;
-	background-color: #D1D1D1;
-	color: #222222;
-	width: 31em;
-	height: 4em;
-	margin-bottom: 1em;
-	padding: .5em;
+    border: none;
+    background-color: #D1D1D1;
+    color: #222222;
+    width: 31em;
+    height: 4em;
+    margin-bottom: 1em;
+    padding: .5em;
 }
 div#contactForm div#blockRight textarea#textConsult{
-	border: none;
-	background-color: #777;
-	color: #f1f1f1;
-	height: 13em;
-	width: 30em;
-	padding: .5em;
+    border: none;
+    background-color: #777;
+    color: #f1f1f1;
+    height: 13em;
+    width: 30em;
+    padding: .5em;
 }
 /* ===== social ===== */
 
 div#social{
-	vertical-align: top;
+    vertical-align: top;
 }
 div#social div#pinterest, div#gplus, div#facebook, div#twitter, div#linkedin{	
-	font-family: 'Roboto', sans-serif;
-	font-size: 1.2em;
-	margin: 0 !important;
-	text-align: center;
-	padding-top: 1.5em;
-	min-width: 20%;
-	min-height: 6em;
-	float: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    margin: 0 !important;
+    text-align: center;
+    padding-top: 1.5em;
+    min-width: 20%;
+    min-height: 6em;
+    float: left;
 }
 div#social div#pinterest:hover, div#gplus:hover, div#facebook:hover, div#twitter:hover, div#linkedin:hover{	
-	opacity: .9;
+    opacity: .9;
 }
 div#social div img{
-	max-height: 2em;
+    max-height: 2em;
 }
 div#social div span{
-	font-family: 'Sintony', sans-serif;
-	font-size: 0.7em;
+    font-family: 'Sintony', sans-serif;
+    font-size: 0.7em;
 }
 div#social div#pinterest{
-	background-color: #CB2028;
+    background-color: #CB2028;
 }
 div#social div#gplus{
-	background-color: #D6128B;
+    background-color: #D6128B;
 }
 div#social div#facebook{
-	background-color: #3B5B98;
+    background-color: #3B5B98;
 }
 div#social div#twitter{
-	background-color: #1BB2E9;
+    background-color: #1BB2E9;
 }
 div#social div#linkedin{
-	background-color: #017EB4;
+    background-color: #017EB4;
 }
 
 /* ===== footer ===== */
 
 footer{
-	font-size: 0.8em;
-	color: #FFFFFF;
-	padding: 0;
-	margin: 0;
-	background-color: #000000;
+    font-size: 0.8em;
+    color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+    background-color: #000000;
 }
 footer h3{
-	color: #FF0000;
+    color: #FF0000;
 }
 footer div#copyR{
-	margin: 2em 0 2em 5em;
-	display: inline-block;
-	vertical-align: top;
+    margin: 2em 0 2em 5em;
+    display: inline-block;
+    vertical-align: top;
 }
 footer div#copyR img{
-	max-height: 4.5em;
-	min-height: 4.5em;
-	margin-bottom: 1em;
+    max-height: 4.5em;
+    min-height: 4.5em;
+    margin-bottom: 1em;
 }
 footer div#infContact{
-	margin: 2.5em 0 2em 8em;
-	display: inline-block;
-	vertical-align: top;
+    margin: 2.5em 0 2em 8em;
+    display: inline-block;
+    vertical-align: top;
 }
 
 

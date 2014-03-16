@@ -4,6 +4,8 @@ web_home:
 web_about:
     pattern:  /nosotros
     defaults: { _controller: WebBundle:About:about }
+
+# Our services
 web_our_services:
     pattern:  /nuestros-servicios
     defaults: { _controller: WebBundle:OurServices:ourServices }
@@ -13,3 +15,9 @@ web_our_services_tshirt:
 web_our_services_keychain_ribbon:
     pattern:  /nuestros-servicios/llaveros-cinta-publicitarios
     defaults: { _controller: WebBundle:OurServices:keychainRibbon }
+web_our_services_keychain_poli:
+    pattern:  /nuestros-servicios/llaveros-polimero-publicitarios
+    defaults: { _controller: WebBundle:OurServices:keychainPoli }
+web_our_services_cushion:
+    pattern:  /nuestros-servicios/almohadones-publicitarios
+    defaults: { _controller: WebBundle:OurServices:cushion }
