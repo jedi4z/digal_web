@@ -37,4 +37,11 @@ class OurServicesController extends Controller {
         return $this->render('WebBundle:OurServices:bag.html.twig');
     }
 
+     public function sweatshirtAction() {
+        return $this->render('WebBundle:OurServices:sweatshirt.html.twig');
+    }
+     public function domeAction() {
+        return $this->render('WebBundle:OurServices:dome.html.twig');
+    }
+
 }

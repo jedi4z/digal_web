@@ -13,27 +13,33 @@
         </div>
         <div id="blockRight">
             <div id="subBlock1">
-	{%block subblock1%}{%endblock%}
-                </div>
-                <div id="subBlock2">
-				{%block subblock2%}{%endblock%}
-                    </div>
-                    <div id="subBlock3">
-                        <h2>Más de nuestros productos</h2>
-                        <ul>
-                            <li><a href="{{ path('web_our_services_tshirt') }}">REMERAS ESTAMPADAS</a></li>
-                            <li><a href="{{ path('web_our_services_keychain_ribbon') }}">LLAVEROS CINTA</a></li>
-                            <li><a href="{{ path('web_our_services_keychain_poli') }}">LLAVEROS POLIMERO</a></li>
-                            <li><a href="{{ path('web_our_services_cushion') }}">ALMOHADONES ESTAMPADOS</a></li>
-                            <li><a href="{{ path('web_our_services_cover') }}">FUNDAS</a></li>
-                            <li><a href="{{ path('web_our_services_bag') }}">BOLSAS ECOLÓGICAS</a></li>
-                            <li><a href="">BUZOS ESTAMPADOS</a></li>
-                            <li><a href="">DOMES</a></li>
-                            <li><a href="">STICKERS</a></li>
-                            <li><a href="">PAD MOUSE</a></li>				
-                        </ul>
-                    </div>
+            {%block subblock1%}{%endblock%}
             </div>
+            <div id="subBlock2">
+                {%block subblock2%}{%endblock%}
+            </div>
+            <div id="subBlock3">
+                <h2>Más de nuestros productos</h2>
+                <ul>
+                    <li><a href="{{ path('web_our_services_tshirt') }}">REMERAS ESTAMPADAS</a></li>
+                    <li><a href="{{ path('web_our_services_keychain_ribbon') }}">LLAVEROS CINTA</a></li>
+                    <li><a href="{{ path('web_our_services_keychain_poli') }}">LLAVEROS POLIMERO</a></li>
+                    <li><a href="{{ path('web_our_services_cushion') }}">ALMOHADONES ESTAMPADOS</a></li>
+                    <li><a href="{{ path('web_our_services_cover') }}">FUNDAS</a></li>
+                    <li><a href="{{ path('web_our_services_bag') }}">BOLSAS ECOLÓGICAS</a></li>
+                    <li><a href="{{ path('web_our_services_sweatshirt') }}">BUZOS ESTAMPADOS</a></li>
+                    <li><a href="{{ path('web_our_services_dome') }}">DOMES</a></li>
+                    <li><a href="">STICKERS</a></li>
+                    <li><a href="">PAD MOUSE</a></li>				
+                </ul>
+             </div>
+             <div id="subBlock4">
+                <h2>Seguinos en Twitter!</h2>
+                <a class="twitter-timeline" href="https://twitter.com/digalArg" data-widget-id="444524597333860352">Tweets por @digalArg</a>
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+                </script>
+            </div>
+         </div>
 </div>
 {%endblock%}
 

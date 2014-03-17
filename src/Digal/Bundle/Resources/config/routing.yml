@@ -27,3 +27,9 @@ web_our_services_cover:
 web_our_services_bag:
     pattern:  /nuestros-servicios/bolsas-ecologicas-publicitarias
     defaults: { _controller: WebBundle:OurServices:bag }
+web_our_services_sweatshirt:
+    pattern:  /nuestros-servicios/buzos-estampados
+    defaults: { _controller: WebBundle:OurServices:sweatshirt }
+web_our_services_dome:
+    pattern:  /nuestros-servicios/domes-publicitarios
+    defaults: { _controller: WebBundle:OurServices:dome }
