@@ -48,7 +48,7 @@ div#navbar ul li a:hover{
 /* ===== contactForm ===== */
 
 div#contactForm{
-    background-color: #444444;
+    background-color: #444444;   
     color: #F1F1F1;
     padding: 1em 2em;
 }
@@ -57,6 +57,9 @@ div#contactForm div#blockLeft, div#blockCenter, div#blockRight{
     padding: 1em;
     vertical-align: top;
 
+}
+div#contactForm div#blockCenter input#inputName, input#inputEmail, input#buttonSend, textarea#textConsult{
+    font-family: Helvetica, Verdana, Times New Roman;
 }
 div#contactForm div#blockCenter input#inputName, input#inputEmail{
     border: none;
