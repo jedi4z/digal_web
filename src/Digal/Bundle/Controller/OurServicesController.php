@@ -43,5 +43,11 @@ class OurServicesController extends Controller {
      public function domeAction() {
         return $this->render('WebBundle:OurServices:dome.html.twig');
     }
+    public function stickerAction() {
+        return $this->render('WebBundle:OurServices:sticker.html.twig');
+    }
+    public function padAction() {
+        return $this->render('WebBundle:OurServices:pad.html.twig');
+    }
 
 }
