@@ -1,0 +1,75 @@
+{%extends "WebBundle:Templates:template.html.twig"%}
+
+{%block title%}{{parent()}}{%endblock%}
+
+{%block description%}{%endblock%}
+
+{%block keywords%}{%endblock%}
+
+{%block stylesheets%}
+{{parent()}}
+<link rel="stylesheet" href="{{asset ('bundles/digal/css/portfolio.css')}}">
+{%endblock%}
+
+{%block content%} 
+<!-- content -->
+<div id="contentPortfolio">
+   <h1>PORTFOLIO</h1>
+   Aquí podrás observar algunos de nuestros trabajos realizados. Esperemos pronto tenerte como cliente!
+   <div id="works">
+      <div class="wrapperWork">
+         <img src="{{asset ('bundles/digal/images/portfolio/wk-1.jpg')}}"/>
+         <div class="refWork">
+            PLAN B<br>
+            <small>Imagen corporativa</small>
+         </div>
+      </div> 
+      <div class="wrapperWork">
+         <img src="{{asset ('bundles/digal/images/portfolio/wk-2.jpg')}}"/>
+         <div class="refWork">
+            MORENO & ASOC.<br>
+            <small>Imagen corporativa</small>
+         </div>
+      </div>
+      <div class="wrapperWork">
+         <img src="{{asset ('bundles/digal/images/portfolio/wk-3.jpg')}}"/>
+         <div class="refWork">
+            DROPMOVI<br>
+            <small>Imagen corporativa</small>
+         </div>
+      </div>
+      <div class="wrapperWork">
+         <img src="{{asset ('bundles/digal/images/portfolio/wk-4.jpg')}}"/>
+         <div class="refWork">
+            MIXO<br>
+            <small>App Mobile</small>
+         </div>
+      </div>
+      <div class="wrapperWork">
+         <img src="{{asset ('bundles/digal/images/portfolio/wk-5.jpg')}}"/>
+         <div class="refWork">
+            MIXO<br>
+            <small>App Mobile</small>
+         </div>
+      </div>
+      <div class="wrapperWork">
+         <img src="{{asset ('bundles/digal/images/portfolio/wk-6.jpg')}}"/>
+         <div class="refWork">
+            AGILECODE<br>
+            <small>Web Site</small>
+         </div>
+      </div>
+      <div class="wrapperWork">
+         <img src="{{asset ('bundles/digal/images/portfolio/wk-7.jpg')}}"/>
+         <div class="refWork">
+            ALLUS BPO CENTER<br>
+            <small>Llaveros estampados</small>
+         </div>
+      </div>
+   </div>
+</div>
+{%endblock%}
+
+{%block scripts%}
+{{parent()}}
+{%endblock%}

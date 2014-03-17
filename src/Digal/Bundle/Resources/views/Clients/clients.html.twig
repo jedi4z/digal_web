@@ -1,0 +1,45 @@
+{%extends "WebBundle:Templates:template.html.twig"%}
+
+{%block title%}{{parent()}}{%endblock%}
+
+{%block description%}{%endblock%}
+
+{%block keywords%}{%endblock%}
+
+{%block stylesheets%}
+{{parent()}}
+<link rel="stylesheet" href="{{asset ('bundles/digal/css/clients.css')}}">
+{%endblock%}
+
+{%block content%} 
+<!-- content -->
+<div id="contentClients">
+   <div id="blockLeft">
+      <h1>CLIENTES</h1>
+      Creemos que el éxito en estas relaciones reflejan los servicios innovadores y nuestra capacidad de impactar positivamente en los negocios de nuestros clientes.
+      <p>
+         <img src="{{asset ('bundles/digal/images/clients/batistella.png')}}" alt="cliente digal batistella"/>
+         <img src="{{asset ('bundles/digal/images/clients/allus_bpo_center.png')}}" alt="cliente digal allus"/>
+         <img src="{{asset ('bundles/digal/images/clients/holiday_inn.png')}}" alt="cliente digal holiday inn  "/>
+         <img src="{{asset ('bundles/digal/images/clients/startupweekendcordoba.png')}}" alt="cliente digal startup weekend cordoba"/>
+         <img src="{{asset ('bundles/digal/images/clients/wheellock.png')}}" alt="cliente digal wheellock"/>
+         <img src="{{asset ('bundles/digal/images/clients/weg.png')}}" alt="cliente digal weg"/>
+         <img src="{{asset ('bundles/digal/images/clients/tengo_raiz.png')}}" alt="cliente digal tengo_raiz"/>
+         <img src="{{asset ('bundles/digal/images/clients/supralife.png')}}" alt="cliente digal supralife"/>
+         <img src="{{asset ('bundles/digal/images/clients/comsys.png')}}" alt="cliente digal comsys"/>
+         <img src="{{asset ('bundles/digal/images/clients/ibm.png')}}" alt="cliente digal ibm"/>
+         <img src="{{asset ('bundles/digal/images/clients/petreiza.png')}}" alt="cliente digal petreiza"/>
+      </p>
+   </div>
+   <div id="blockRight">
+      <h2> Seguinos en Twitter</h2>
+      <a class="twitter-timeline" href="https://twitter.com/digalArg" data-widget-id="444524597333860352">Tweets por @digalArg</a>
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+      </script>
+   </div>
+</div>
+{%endblock%}
+
+{%block scripts%}
+{{parent()}}
+{%endblock%}

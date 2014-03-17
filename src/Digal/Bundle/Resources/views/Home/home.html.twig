@@ -1,10 +1,10 @@
 {%extends "WebBundle:Templates:template.html.twig"%}
 
-{%block title%}{{parent()}}Home{%endblock%}
+{%block title%}{{parent()}} | Servicios Publicitarios | Diseño web | Merchandising {%endblock%}
 
 {%block description%}{%endblock%}
 
-{%block keywords%}remeras estampadas,banners,ploteados,llaveros publicitarios,llaveros cinta,buzos estampados,camperas estampadas,calcos publicitarias,domes,diseño web cordoba,marketing,publicidad cordoba{%endblock%}
+{%block keywords%}{%endblock%}
 
 {%block stylesheets%}
 {{parent()}}
@@ -14,9 +14,30 @@
 {%block content%} 
 <!-- sliders -->
 <div id="slider">
-    <img id="slider1" src="{{asset ('bundles/digal/images/sliders/1.png')}}" border="0" alt="digal productos publicitarios">
-    <img id="slider2" src="{{asset ('bundles/digal/images/sliders/2.png')}}" border="0" alt="digal diseño web">
-    <img id="slider3" src="{{asset ('bundles/digal/images/sliders/3.png')}}" border="0" alt="digal diseño grafico">
+   <img id="slider1" src="{{asset ('bundles/digal/images/sliders/1.png')}}" border="0" alt="digal productos publicitarios">
+   <img id="slider2" src="{{asset ('bundles/digal/images/sliders/2.png')}}" border="0" alt="digal diseño web">
+   <img id="slider3" src="{{asset ('bundles/digal/images/sliders/3.png')}}" border="0" alt="digal diseño grafico">
+</div>
+<!-- contactForm -->
+<div id="contactForm">
+   <div id="blockLeft">
+      <h1>HOLA!</h1>
+      <p>
+         Necesitas ayuda para publicitar tu marca? <br>
+         podes contar con nosotros! <br>
+         contáctate!
+      </p>
+   </div>
+   <div id="blockCenter">
+      <form action="">
+         <input type="text" name="" id="inputName" placeholder="Nombre"><br>
+         <input type="text" name="" id="inputEmail" placeholder="Email"><br>
+         <input type="submit" id="buttonSend" value="Enviar">	
+      </form>
+   </div>
+   <div id="blockRight">
+      <textarea id="textConsult" placeholder="Consulta"></textarea>
+   </div>
 </div>
 {%endblock%}
 

@@ -9,8 +9,8 @@ use Digal\Bundle\Entity\Consult;
 
 class AboutController extends Controller {
 
-    public function aboutAction() {
-        return $this->render('WebBundle:About:about.html.twig');
-    }
+   public function aboutAction() {
+      return $this->render('WebBundle:About:about.html.twig');
+   }
 
 }

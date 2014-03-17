@@ -9,8 +9,8 @@ use Digal\Bundle\Entity\Consult;
 
 class HomeController extends Controller {
 
-    public function homeAction() {
-        return $this->render('WebBundle:Home:home.html.twig');
-    }
+   public function homeAction() {
+      return $this->render('WebBundle:Home:home.html.twig');
+   }
 
 }

@@ -7,3 +7,46 @@
     height: auto;
     display: none;
 }
+
+/* ===== contactForm ===== */
+
+div#contactForm{
+    background-color: #444444;   
+    color: #F1F1F1;
+    padding: 1em 2em;
+}
+div#contactForm div#blockLeft, div#blockCenter, div#blockRight{
+    display: inline-block;
+    padding: 1em;
+    vertical-align: top;
+
+}
+div#contactForm div#blockCenter input#inputName, input#inputEmail, input#buttonSend, textarea#textConsult{
+    font-family: Helvetica, Verdana, Times New Roman;
+}
+div#contactForm div#blockCenter input#inputName, input#inputEmail{
+    border: none;
+    background-color: #777;
+    color: #f1f1f1;
+    width: 30em;
+    height: 3em;
+    margin-bottom: 1em;
+    padding: .5em;
+}
+div#contactForm div#blockCenter input#buttonSend{
+    border: none;
+    background-color: #D1D1D1;
+    color: #222222;
+    width: 31em;
+    height: 4em;
+    margin-bottom: 1em;
+    padding: .5em;
+}
+div#contactForm div#blockRight textarea#textConsult{
+    border: none;
+    background-color: #777;
+    color: #f1f1f1;
+    height: 13em;
+    width: 30em;
+    padding: .5em;
+}
