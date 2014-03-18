@@ -46,5 +46,5 @@ div#contentPortfolio  div.refWork{
 
 }
 div#contentPortfolio  div.wrapperWork:hover div.refWork{
-   opacity: .9;
+   opacity: .95;
 }
