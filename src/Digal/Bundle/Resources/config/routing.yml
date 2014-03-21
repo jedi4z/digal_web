@@ -1,6 +1,16 @@
+# Home
 web_home:
     pattern:  /
     defaults: { _controller: WebBundle:Home:home }
+
+# Send Consult Ajax
+web_sendConsult:
+    pattern:  /enviar-consulta
+    defaults: { _controller: WebBundle:Form:sendConsult }
+    requirements:
+        _method:  POST
+
+# About
 web_about:
     pattern:  /nosotros
     defaults: { _controller: WebBundle:About:about }

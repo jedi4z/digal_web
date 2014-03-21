@@ -9,11 +9,11 @@
 div#contentPortfolio{
    text-align: center;
    padding: 2em 0;
-   margin: 0 11em;
 }
 div#contentPortfolio  div#works{
-   margin-top: 1em;
    text-align: left;
+   max-width: 63em;
+   margin: 1em auto;
 }
 div#contentPortfolio  div.wrapperWork{
    text-align: left;

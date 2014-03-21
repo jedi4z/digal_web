@@ -9,22 +9,29 @@
 }
 
 /* ===== contactForm ===== */
-
+div#boxInf{
+    text-align: center;
+    font-size: 13;
+    font-weight: 700;
+    background-color: #FFF3A5;
+    padding: 1.5em 0;
+    display: none;
+}
 div#contactForm{
     background-color: #444444;   
     color: #F1F1F1;
-    padding: 1em 2em;
+    padding: 1em;
 }
 div#contactForm div#blockLeft, div#blockCenter, div#blockRight{
     display: inline-block;
     padding: 1em;
     vertical-align: top;
-
 }
-div#contactForm div#blockCenter input#inputName, input#inputEmail, input#buttonSend, textarea#textConsult{
+div#contactForm div#blockCenter input.inputName, input.inputEmail, input.buttonSend, textarea.textConsult, input#buttonSend{
     font-family: Helvetica, Verdana, Times New Roman;
+    font-size: 12px;
 }
-div#contactForm div#blockCenter input#inputName, input#inputEmail{
+div#contactForm div#blockCenter input.inputName, input.inputEmail{
     border: none;
     background-color: #777;
     color: #f1f1f1;
@@ -42,7 +49,7 @@ div#contactForm div#blockCenter input#buttonSend{
     margin-bottom: 1em;
     padding: .5em;
 }
-div#contactForm div#blockRight textarea#textConsult{
+div#contactForm div#blockRight textarea.textConsult{
     border: none;
     background-color: #777;
     color: #f1f1f1;

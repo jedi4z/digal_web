@@ -11,6 +11,9 @@ div#contentAbout div#blockLeft{
     max-width: 46em;
     height: auto;
 }
+div#contentAbout div#blockLeft img{
+    width: 100%;
+}
 div#contentAbout div#blockRight{
     padding: 1em;
     border-left: 1px dashed #D1D1D1;

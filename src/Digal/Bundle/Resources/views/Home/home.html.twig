@@ -20,28 +20,34 @@
 </div>
 <!-- contactForm -->
 <div id="contactForm">
-   <div id="blockLeft">
-      <h1>HOLA!</h1>
-      <p>
-         Necesitas ayuda para publicitar tu marca? <br>
-         podes contar con nosotros! <br>
-         contáctate!
-      </p>
-   </div>
-   <div id="blockCenter">
-      <form action="">
-         <input type="text" name="" id="inputName" placeholder="Nombre"><br>
-         <input type="text" name="" id="inputEmail" placeholder="Email"><br>
-         <input type="submit" id="buttonSend" value="Enviar">	
-      </form>
-   </div>
-   <div id="blockRight">
-      <textarea id="textConsult" placeholder="Consulta"></textarea>
-   </div>
+   <form id="formContact" method="post" action="{{path ('web_sendConsult')}}">
+      <div id="blockLeft">
+         <h1>HOLA!</h1>
+         <p>
+            Necesitas ayuda para publicitar tu marca? <br>
+            podes contar con nosotros! <br>
+            contáctate!
+         </p>
+      </div>
+      <div id="blockCenter">
+            {{ form_errors(form.name)}}
+            {{ form_widget(form.name , {'attr': {'placeholder': 'Nombre', 'class':'inputName'}})}}<br>
+            {{ form_errors(form.email)}}
+            {{ form_widget(form.email, {'attr': {'placeholder': 'Email', 'class':'inputEmail'}})}}<br>
+            {{ form_widget(form._token) }}
+            <input type="submit" id="buttonSend" value="Enviar">
+      </div>
+      <div id="blockRight">
+         {{ form_errors(form.description) }}
+         {{ form_widget(form.description, {'attr': {'placeholder': 'Consulta', 'class':'textConsult'}})}}
+      </div>
+   </form>
 </div>
+<div id="boxInf"></div>
 {%endblock%}
 
 {%block scripts%}
 {{parent()}}
 <script src="{{asset ('bundles/digal/js/sliders.js')}}"></script>
+<script src="{{asset ('bundles/digal/js/scripts.js')}}"></script>
 {%endblock%}
