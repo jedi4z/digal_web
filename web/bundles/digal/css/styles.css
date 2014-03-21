@@ -1,118 +1,38 @@
-
-
+/* 
+    Document   : styles
+    Author     : Jesús Díaz
+    twitter    : @gbuuss
+*/
 /* ===== header ===== */
-header{
-    background-color: #000000;
-    overflow: hidden;
-    padding: 0;
-}
-header #logo{
-    display: inline-block;
-    margin: 0.5em 5em;
-    float: left;
-}
-header #logo img{
-    max-height: 4em;
-    min-height: 4em;
-    margin: 0;
-}
+header{ background-color: #000000; overflow: hidden; padding: 0; }
+header #logo{ display: inline-block; float: left; margin: 0.5em 5em; }
+header #logo img{ margin: 0; max-height: 4em; min-height: 4em; }
 
 /* ===== nabvar ===== */
-
-div#navbar{
-    color: #F1F1F1;
-    background-color: #333;
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
-}
-div#navbar ul{
-    float: right;
-    display: block;
-    margin: 0 2em 0 0;
-    padding: .5em;
-    list-style: none;
-}
-div#navbar ul li{
-    float: left;
-}
-div#navbar ul li a{
-    display: block;
-    margin-left: .8em;
-}
-div#navbar ul li a:hover{
-    background-color: #F1F1F1;
-    color: #000000
-}
+div#navbar{ background-color: #333; color: #F1F1F1; margin: 0; overflow: hidden; padding: 0; }
+div#navbar ul{ display: block; float: right; list-style: none; margin: 0 2em 0 0; padding: .5em; }
+div#navbar ul li{ float: left; }
+div#navbar ul li a{ display: block; margin-left: .8em; }
+div#navbar ul li a:hover{ background-color: #F1F1F1; color: #000000 }
 
 /* ===== social ===== */
-
-div#social{
-    vertical-align: top;
-}
-div#social div#pinterest, div#gplus, div#facebook, div#twitter, div#linkedin{	
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.2em;
-    margin: 0 !important;
-    text-align: center;
-    padding-top: 1.5em;
-    min-width: 20%;
-    min-height: 6em;
-    float: left;
-}
-div#social div#pinterest:hover, div#gplus:hover, div#facebook:hover, div#twitter:hover, div#linkedin:hover{	
-    opacity: .9;
-}
-div#social div img{
-    max-height: 2em;
-}
-div#social div span{
-    font-family: 'Sintony', sans-serif;
-    font-size: 0.7em;
-}
-div#social div#pinterest{
-    background-color: #CB2028;
-}
-div#social div#gplus{
-    background-color: #D6128B;
-}
-div#social div#facebook{
-    background-color: #3B5B98;
-}
-div#social div#twitter{
-    background-color: #1BB2E9;
-}
-div#social div#linkedin{
-    background-color: #017EB4;
-}
+div#social{ vertical-align: top; }
+div#social div#pinterest, div#gplus, div#facebook, div#twitter, div#linkedin{ float: left; font-family: 'Roboto', sans-serif; font-size: 1.2em; margin: 0 !important; min-height: 6em; min-width: 20%; padding-top: 1.5em; text-align: center; }
+div#social div#pinterest:hover, div#gplus:hover, div#facebook:hover, div#twitter:hover, div#linkedin:hover{ opacity: .9; }
+div#social div img{ max-height: 2em; }
+div#social div span{ font-family: 'Sintony', sans-serif; font-size: 0.7em; }
+div#social div#pinterest{ background-color: #CB2028; }
+div#social div#gplus{ background-color: #D6128B; }
+div#social div#facebook{ background-color: #3B5B98; }
+div#social div#twitter{ background-color: #1BB2E9; }
+div#social div#linkedin{ background-color: #017EB4; }
 
 /* ===== footer ===== */
-
-footer{
-    font-size: 0.8em;
-    color: #FFFFFF;
-    padding: 0;
-    margin: 0;
-    background-color: #000000;
-}
-footer h3{
-    color: #FF0000;
-}
-footer div#copyR{
-    margin: 2em 0 2em 5em;
-    display: inline-block;
-    vertical-align: top;
-}
-footer div#copyR img{
-    max-height: 4.5em;
-    min-height: 4.5em;
-    margin-bottom: 1em;
-}
-footer div#infContact{
-    margin: 2.5em 0 2em 8em;
-    display: inline-block;
-    vertical-align: top;
-}
+footer{ background-color: #000000; color: #FFFFFF; font-size: 0.8em; margin: 0; padding: 0; }
+footer h3{ color: #FF0000; }
+footer div#copyR{ display: inline-block; margin: 2em 0 2em 5em; vertical-align: top; }
+footer div#copyR img{ margin-bottom: 1em; max-height: 4.5em; min-height: 4.5em; }
+footer div#infContact{ display: inline-block; margin: 2.5em 0 2em 8em; vertical-align: top; }
 
 
 

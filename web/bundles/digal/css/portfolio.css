@@ -1,50 +1,11 @@
 /* 
     Document   : portfolio
-    Created on : 17/03/2014, 18:24:02
-    Author     : jesus
-    Description:
-        Purpose of the stylesheet follows.
+    Author     : Jesús Díaz
+    twitter    : @gbuuss
 */
-
-div#contentPortfolio{
-   text-align: center;
-   padding: 2em 0;
-}
-div#contentPortfolio  div#works{
-   text-align: left;
-   max-width: 63em;
-   margin: 1em auto;
-}
-div#contentPortfolio  div.wrapperWork{
-   text-align: left;
-   margin: .5em;
-   display: inline-block;
-   position: relative;
-   width: 230px;
-   height: 168px;
-}
-div#contentPortfolio  div.wrapperWork img{
-   width: 230px;
-   height: 168px;
-}
-div#contentPortfolio  div.refWork{
-   opacity: 0;
-   position: absolute;
-   text-align: left;
-   width: 230px;
-   height: 105px;
-   color: #FFFFFF;
-   text-align: center;
-   top: 0;
-   padding-top: 65px;
-   background-color: #DC143C;
-   -webkit-transition: all 0.6s ease;
-   -moz-transition: all 0.6s ease;
-   -ms-transition: all 0.6s ease;
-   -o-transition: all 0.6s ease;
-   transition: all 0.6s ease;
-
-}
-div#contentPortfolio  div.wrapperWork:hover div.refWork{
-   opacity: .95;
-}
+div#contentPortfolio{ padding: 2em 0; text-align: center; }
+div#contentPortfolio  div#works{ margin: 1em auto; max-width: 63em; text-align: left; }
+div#contentPortfolio  div.wrapperWork{ display: inline-block; height: 168px; margin: .5em; position: relative; text-align: left; width: 230px; }
+div#contentPortfolio  div.wrapperWork img{ height: 168px; width: 230px; }
+div#contentPortfolio  div.refWork{ -moz-transition: all 0.6s ease; -ms-transition: all 0.6s ease; -o-transition: all 0.6s ease; -webkit-transition: all 0.6s ease; background-color: #DC143C; color: #FFFFFF; height: 105px; opacity: 0; padding-top: 65px; position: absolute; text-align: center; top: 0; transition: all 0.6s ease; width: 230px; }
+div#contentPortfolio  div.wrapperWork:hover div.refWork{ opacity: .95; }

@@ -1,59 +1,17 @@
-#slider{
-    overflow: hidden;
-    height: 450px;
-}
-#slider img{
-    width: 100%;
-    height: auto;
-    display: none;
-}
+/* 
+    Document   : home
+    Author     : Jesús Díaz
+    twitter    : @gbuuss
+*/
+/* ===== slider ===== */
+#slider{ height: 450px; overflow: hidden; }
+#slider img{ display: none; height: auto; width: 100%; }
 
 /* ===== contactForm ===== */
-div#boxInf{
-    text-align: center;
-    font-size: 13;
-    font-weight: 700;
-    background-color: #FFF3A5;
-    padding: 1.5em 0;
-    display: none;
-}
-div#contactForm{
-    background-color: #444444;   
-    color: #F1F1F1;
-    padding: 1em;
-}
-div#contactForm div#blockLeft, div#blockCenter, div#blockRight{
-    display: inline-block;
-    padding: 1em;
-    vertical-align: top;
-}
-div#contactForm div#blockCenter input.inputName, input.inputEmail, input.buttonSend, textarea.textConsult, input#buttonSend{
-    font-family: Helvetica, Verdana, Times New Roman;
-    font-size: 12px;
-}
-div#contactForm div#blockCenter input.inputName, input.inputEmail{
-    border: none;
-    background-color: #777;
-    color: #f1f1f1;
-    width: 30em;
-    height: 3em;
-    margin-bottom: 1em;
-    padding: .5em;
-}
-div#contactForm div#blockCenter input#buttonSend{
-    border: none;
-    background-color: #D1D1D1;
-    color: #222222;
-    width: 31em;
-    height: 4em;
-    margin-bottom: 1em;
-    padding: .5em;
-}
-div#contactForm div#blockRight textarea.textConsult{
-    border: none;
-    background-color: #777;
-    color: #f1f1f1;
-    height: 13em;
-    width: 30em;
-    padding: .5em;
-}
+div#boxInf{ background-color: #FFF3A5; display: none; font-size: 13; font-weight: 700; padding: 1.5em 0; text-align: center; }
+div#contactForm{ background-color: #444444; color: #F1F1F1; padding: 1em; }
+div#contactForm div#blockLeft, div#blockCenter, div#blockRight{ display: inline-block; padding: 1em; vertical-align: top; }
+div#contactForm div#blockCenter input.inputName, input.inputEmail, input.buttonSend, textarea.textConsult, input#buttonSend{ font-family: Helvetica, Verdana, Times New Roman; font-size: 12px; }
+div#contactForm div#blockCenter input.inputName, input.inputEmail{ background-color: #777; border: none; color: #f1f1f1; height: 3em; margin-bottom: 1em; padding: .5em; width: 30em; }
+div#contactForm div#blockCenter input#buttonSend{ background-color: #D1D1D1; border: none; color: #222222; height: 4em; margin-bottom: 1em; padding: .5em; width: 31em; }
+div#contactForm div#blockRight textarea.textConsult{ background-color: #777; border: none; color: #f1f1f1; height: 13em; padding: .5em; width: 30em; }
