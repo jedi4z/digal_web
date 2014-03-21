@@ -16,7 +16,7 @@ div#navbar ul li a{ display: block; margin-left: .8em; }
 div#navbar ul li a:hover{ background-color: #F1F1F1; color: #000000 }
 
 /* ===== social ===== */
-div#social{ vertical-align: top; }
+div#social{ vertical-align: top; font-size: .8em;}
 div#social div#pinterest, div#gplus, div#facebook, div#twitter, div#linkedin{ float: left; font-family: 'Roboto', sans-serif; font-size: 1.2em; margin: 0 !important; min-height: 6em; min-width: 20%; padding-top: 1.5em; text-align: center; }
 div#social div#pinterest:hover, div#gplus:hover, div#facebook:hover, div#twitter:hover, div#linkedin:hover{ opacity: .9; }
 div#social div img{ max-height: 2em; }

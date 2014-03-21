@@ -4,8 +4,9 @@
     twitter    : @gbuuss
 */
 div#contactContent { background-color: #f5f6f7; padding: 2em 0; text-align: center; }
-div#contactContent div#wrapperForm{ -webkit-border-radius: 3px 3px 3px 3px; background-color: #FFFFFF; border-radius: 3px 3px 3px 3px; display: inline-block; margin: 2em auto; max-width: 40em; min-width: 40em; padding: 3em; vertical-align: top; }
+div#boxInf{ background-color: #FFF3A5; display: none; font-size: 13; font-weight: 700; padding: 1.5em 0; text-align: center; margin: 1px auto; }
+div#contactContent div#wrapperForm{ -webkit-border-radius: 3px 3px 3px 3px; background-color: #FFFFFF; border-radius: 3px 3px 3px 3px; display: inline-block; margin: 2em auto; padding: 3em; vertical-align: top; width: 55%; }
 div#contactContent div#wrapperForm form#formContact input, textarea{ border: 1px solid #F1F1F1; color: #555555; font-size: 16px; }
-div#contactContent div#wrapperForm form#formContact input.inputName, input.inputEmail{ height: 3em; padding: .5em; width: 18.6em; }
-div#contactContent div#wrapperForm form#formContact textarea.textConsult{ height: 15em; margin-bottom: 1em; margin: .5em auto; padding: .5em; width: 38.5em; }
-div#contactContent div#wrapperForm form#formContact input#buttonSend{ background-color: #f5f6f7; border: none; height: 4em; margin-top: 1em; padding: .5em; width: 31em; }
+div#contactContent div#wrapperForm form#formContact input.inputName, input.inputEmail{ height: 3em; margin: .5em auto; max-width: 18.6em; padding: .5em; width: 100%; }
+div#contactContent div#wrapperForm form#formContact textarea.textConsult{ height: 15em; margin-bottom: 1em; margin: .1em auto; max-width: 38.5em; padding: .5em; width: 100%; }
+div#contactContent div#wrapperForm form#formContact input#buttonSend{ background-color: #f5f6f7; border: none; height: 4em; margin-top: 1em; max-width: 31em; padding: .5em; width: 100%; }

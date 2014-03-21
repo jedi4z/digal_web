@@ -17,6 +17,7 @@
 	<h1>Contacto</h1>
 	<p>Mandanos tu mensaje, a la brevedad nos pondremos en contacto.</p>
 	<div id="wrapperForm">
+		<div id="boxInf"></div>
 		<form id="formContact" method="post" action="{{path ('web_sendConsult')}}">
 		    {{ form_errors(form.name)}}
 		    {{ form_widget(form.name , {'attr': {'placeholder': 'Nombre', 'class':'inputName'}})}}
@@ -33,4 +34,5 @@
 
 {%block scripts%}
 {{parent()}}
+<script src="{{asset ('bundles/digal/js/scripts.js')}}"></script>
 {%endblock%}

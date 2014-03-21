@@ -4,7 +4,7 @@
     twitter    : @gbuuss
 */
 /* ===== slider ===== */
-#slider{ height: 450px; overflow: hidden; }
+#slider{ height: 100%; max-height: 28em; overflow: hidden; }
 #slider img{ display: none; height: auto; width: 100%; }
 
 /* ===== contactForm ===== */
