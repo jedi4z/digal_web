@@ -26,7 +26,7 @@
       <!-- header -->
       <header>
          <div id="logo">
-            <a href="{{ path('web_home') }}">
+            <a href="{{path('web_home')}}">
                <img src="{{asset ('bundles/digal/images/logo.png')}}" alt="logo digal">
             </a>
          </div>
@@ -34,12 +34,12 @@
       <!-- navbar -->
       <div id="navbar">
          <ul>
-            <li><a href="{{ path('web_home') }}">HOME</a></li>
-            <li><a href="{{ path('web_about') }}">NOSOTROS</a></li>
-            <li><a href="{{ path('web_our_services') }}">NUESTROS SERVICIOS</a></li>
-            <li><a href="{{ path('web_clients') }}">CLIENTES</a></li>
-            <li><a href="{{ path ('web_portfolio') }}">PORTFOLIO</a></li>
-            <li><a href="">CONTACTO</a></li>
+            <li><a href="{{path('web_home')}}">HOME</a></li>
+            <li><a href="{{path('web_about')}}">NOSOTROS</a></li>
+            <li><a href="{{path('web_our_services')}}">NUESTROS SERVICIOS</a></li>
+            <li><a href="{{path('web_clients')}}">CLIENTES</a></li>
+            <li><a href="{{path ('web_portfolio')}}">PORTFOLIO</a></li>
+            <li><a href="{{path ('web_contact')}}">CONTACTO</a></li>
          </ul>
       </div>
         {%block content%} {%endblock%}

@@ -1,0 +1,36 @@
+{%extends "WebBundle:Templates:template.html.twig"%}
+
+{%block title%}{{parent()}}{%endblock%}
+
+{%block description%}{%endblock%}
+
+{%block keywords%}{%endblock%}
+
+{%block stylesheets%}
+{{parent()}}
+<link rel="stylesheet" href="{{asset ('bundles/digal/css/contact.css')}}">
+{%endblock%}
+
+{%block content%} 
+<!-- contactContent -->
+<div id="contactContent">
+	<h1>Contacto</h1>
+	<p>Mandanos tu mensaje, a la brevedad nos pondremos en contacto.</p>
+	<div id="wrapperForm">
+		<form id="formContact" method="post" action="{{path ('web_sendConsult')}}">
+		    {{ form_errors(form.name)}}
+		    {{ form_widget(form.name , {'attr': {'placeholder': 'Nombre', 'class':'inputName'}})}}
+		    {{ form_errors(form.email)}}
+		    {{ form_widget(form.email, {'attr': {'placeholder': 'Email', 'class':'inputEmail'}})}}
+		    {{ form_errors(form.description) }}
+		 	{{ form_widget(form.description, {'attr': {'placeholder': 'Consulta', 'class':'textConsult'}})}}
+		 	{{ form_widget(form._token) }}
+		    <input type="submit" id="buttonSend" value="Enviar">
+		</form>
+   </div>
+</div>
+{%endblock%}
+
+{%block scripts%}
+{{parent()}}
+{%endblock%}

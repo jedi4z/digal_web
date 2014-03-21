@@ -49,13 +49,18 @@ web_our_services_sticker:
 web_our_services_pad:
     pattern:  /nuestros-servicios/mouse-pads-personalizados
     defaults: { _controller: WebBundle:OurServices:pad }
-    
+
 # clients
 web_clients:
     pattern:  /clientes
     defaults: { _controller: WebBundle:Clients:clients }
-    
+
 # portfolio
 web_portfolio:
     pattern:  /portfolio
     defaults: { _controller: WebBundle:Portfolio:portfolio }
+
+# contact
+web_contact:
+    pattern:  /contacto
+    defaults: { _controller: WebBundle:Contact:contact }
