@@ -17,11 +17,18 @@
       <meta name="keywords" content="{%block keywords%}{%endblock%}"/>
       <!-- favicon -->
       <link rel="shortcut icon" type="image/ico" href="{{asset ('bundles/digal/images/favicon.png')}}">
+      <!-- OpenGraph Meta Tags -->
+      <meta name="og:title" content="{%block ogTitle%}Digal - Servicios Publicitarios | {%endblock%}">
+      <meta name="og:description" content="{%block ogDescription%}{%endblock%}">
+      <meta name="og:image" content="{%block ogImage%}{%endblock%}">
+      <meta name="og:site_name" content="Digal - Servicios Publicitarios">
+      <meta property="og:locale" content="es_ES">
+      <meta name="og:type" content="website">
       <!-- stylesheets -->
-        {%block stylesheets%}
+      {%block stylesheets%}
       <link rel="stylesheet" href="{{asset ('bundles/digal/css/resets.css')}}">
       <link rel="stylesheet" href="{{asset ('bundles/digal/css/styles.css')}}">
-        {%endblock%}
+      {%endblock%}
       <!-- fonts -->
       <link href='http://fonts.googleapis.com/css?family=Sintony' rel='stylesheet' type='text/css'>
       <link href='http://fonts.googleapis.com/css?family=Roboto:700' rel='stylesheet' type='text/css'>

@@ -14,12 +14,14 @@ $(document).ready(function(){
             type: "POST",
 			data : postData,
 			beforeSend: function (){
-				boxInf.text("Enviando su consulta...");
-				boxInf.css({"display":"block"});
+				buttonSend.prop('value', 'Enviando...');				
 				buttonSend.prop("disabled",true);
 			},
             success: function(result) {
-                boxInf.text(""+result);          
+            	boxInf.fadeIn("slow");
+                boxInf.text(""+result);
+                buttonSend.prop("disabled",false);
+                buttonSend.prop('value', 'Enviar');          
             }
         });
     });
