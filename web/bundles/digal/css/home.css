@@ -9,14 +9,19 @@
 /* conactForm -------------- */
 div#boxInf{ background-color: #FFF3A5; display: none; font-size: 13; font-weight: 700; padding: 1.5em 0; text-align: center; }
 div#contactForm{ background-color: #444444; color: #F1F1F1; padding: 1em; }
-div#contactForm div#blockLeft, div#blockCenter, div#blockRight { display: inline-block; min-width: 10em; padding: 1em; vertical-align: top; }
+div#contactForm div#blockLeft, div#blockCenter, div#blockRight { display: inline-block; min-width: 15em; padding: 1em; vertical-align: top; }
 div#contactForm div#blockCenter input.inputName, input.inputEmail, input.buttonSend, textarea.textConsult, input#buttonSend{ font-family: Helvetica, Verdana, Times New Roman; font-size: 12px; }
-div#contactForm div#blockCenter input.inputName, input.inputEmail{ background-color: #777; border: none; color: #f1f1f1; height: 3em; margin-bottom: 1em; max-width: 30em; min-width: 20em; padding: .5em; width: 100%; }
-div#contactForm div#blockCenter input#buttonSend{ background-color: #D1D1D1; border: none; color: #222222; height: 4em; margin-bottom: 1em; max-width: 31em; min-width: 21em; padding: .5em; width: 100%; }
-div#contactForm div#blockRight textarea.textConsult{ background-color: #777; border: none; color: #f1f1f1; height: 13em; max-width: 30em; min-width: 20em; padding: .5em; width: 100%; }
+div#contactForm div#blockCenter input.inputName, input.inputEmail{ background-color: #777; border: none; color: #f1f1f1; height: 3em; margin-bottom: 1em; max-width: 30em; min-width: 30em; padding: .5em; width: 100%; }
+div#contactForm div#blockCenter input#buttonSend{ background-color: #D1D1D1; border: none; color: #222222; height: 4em; margin-bottom: 1em; max-width: 31em; min-width: 31em; padding: .5em; width: 100%; }
+div#contactForm div#blockRight textarea.textConsult{ background-color: #777; border: none; color: #f1f1f1; height: 13em; max-width: 30em; min-width: 30em; padding: .5em; width: 100%; }
 
 /* media queries -------------- */
+
+@media screen and (max-width: 480px){
+	div#contactForm div#blockCenter input.inputName, input.inputEmail{ max-width: 20em; min-width: 20em; }
+	div#contactForm div#blockCenter input#buttonSend{ max-width: 21em; min-width: 21em; }
+	div#contactForm div#blockRight textarea.textConsult{ max-width: 20em; min-width: 20em; }
+}
 @media screen and (max-width: 768px){ 
 	#slider { display: none; }
-	div#contactForm { display: block; }
 }
