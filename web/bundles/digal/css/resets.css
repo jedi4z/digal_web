@@ -5,5 +5,7 @@
 */
 *{ margin: 0; padding: 0; }
 body{ font-family: 'Sintony', sans-serif; font-size: 1em; }
+@media screen and (max-width: 700px) { body{ text-align: center; } }
+
 a{ color: #F1F1F1; text-decoration: none; }
 ul{ list-style: none; }

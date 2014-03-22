@@ -17,10 +17,14 @@ div#contentOurServices .divider-small-border{ border: 1px solid #888888; margin:
 div#contentItem{ overflow: hidden; padding-top: 2em; text-align: center; }
 div#contentItem div#blockLeft{ display: inline-block; height: auto; max-width: 46em; padding: 1em; vertical-align: top; }
 div#contentItem div#blockLeft p{ margin: 1em auto; }
-div#contentItem div#blockLeft img{ margin: 1em auto; width: 400px; }
-div#contentItem div#blockRight{ border-left: 1px dashed #D1D1D1; display: inline-block; height: auto; max-width: 26em; min-height: 42em; min-width: 26em; padding: 1em; vertical-align: top; }
+div#contentItem div#blockLeft img{ margin: 1em auto; max-width: 400px; width: 100%; }
+div#contentItem div#blockRight{ border-left: 1px dashed #D1D1D1; display: inline-block; height: auto; max-width: 26em; min-height: 42em; min-width: 18em; padding: 1em; vertical-align: top; }
 div#contentItem div#blockRight div#subBlock1 img, div#subBlock2 img{ margin: 1em auto; width: 300px; }
 div#contentItem div#blockRight div#subBlock2 p{ margin: 1em auto; }
 div#contentItem div#blockRight div#subBlock3 ul{ margin: 1em auto; }
 div#contentItem div#blockRight div#subBlock3 li{ -webkit-box-shadow: 1px 1px 1px 1px #E0E0E0; background-color: #00B3A8; box-shadow: 1px 1px 1px 1px #E0E0E0; display: inline-block; margin: 0.3em; padding: 0.1em; }
 div#contentItem div#blockRight div#subBlock3 li:hover{ -webkit-box-shadow: 0; background-color: #333; box-shadow: 0; opacity: .8; }
+
+@media screen and (max-width: 1236px){
+	div#contentItem div#blockRight{ border: none; }
+}

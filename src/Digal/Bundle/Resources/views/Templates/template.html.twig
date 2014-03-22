@@ -4,7 +4,7 @@
       <title>{%block title%}Digal{%endblock%}</title>
       <!-- meta-tags -->
       <meta charset="UTF-8"/>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <meta name="viewport" content="width=device-width"/>
       <meta http-equiv="Content-Style-Type" content="text/css"/>
       <meta name="robots" content="all"/>
       <meta name="googlebot" content="all"/>
@@ -33,14 +33,16 @@
       </header>
       <!-- navbar -->
       <div id="navbar">
-         <ul>
-            <li><a href="{{path('web_home')}}">HOME</a></li>
-            <li><a href="{{path('web_about')}}">NOSOTROS</a></li>
-            <li><a href="{{path('web_our_services')}}">NUESTROS SERVICIOS</a></li>
-            <li><a href="{{path('web_clients')}}">CLIENTES</a></li>
-            <li><a href="{{path ('web_portfolio')}}">PORTFOLIO</a></li>
-            <li><a href="{{path ('web_contact')}}">CONTACTO</a></li>
-         </ul>
+         <div id="wrapper-navbar">
+            <ul>
+               <li><a href="{{path('web_home')}}">HOME</a></li>
+               <li><a href="{{path('web_about')}}">NOSOTROS</a></li>
+               <li><a href="{{path('web_our_services')}}">NUESTROS SERVICIOS</a></li>
+               <li><a href="{{path('web_clients')}}">CLIENTES</a></li>
+               <li><a href="{{path ('web_portfolio')}}">PORTFOLIO</a></li>
+               <li><a href="{{path ('web_contact')}}">CONTACTO</a></li>
+            </ul>
+         </div>
       </div>
         {%block content%} {%endblock%}
       <!-- social -->

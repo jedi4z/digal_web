@@ -1,11 +1,33 @@
-/* 
+/* s
     Document   : clients
     Author     : Jesús Díaz
     twitter    : @gbuuss
 */
 div#contentClients{ text-align: center; }
 div#contentClients h1, h2{ margin-bottom: 1em; }
-div#contentClients div#blockLeft{ display: inline-block; vertical-align: top; padding: 1em; max-width: 46em; height: auto; }
-div#contentClients div#blockLeft p{ margin: 1.5em auto; }
-div#contentClients div#blockLeft p img{ width: 170px; }
-div#contentClients div#blockRight{ border-left: 1px dashed #D1D1D1; display: inline-block; vertical-align: top; padding: 1em; max-width: 26em; min-width: 26em; min-height: 30em; height: auto; }
+div#contentClients div#blockLeft{
+	display: inline-block;
+	vertical-align: top;
+	padding: 1em;
+	max-width: 46em;
+	height: auto;
+}
+div#contentClients div#blockLeft p{
+	margin: 1.5em auto;
+}
+div#contentClients div#blockLeft p img{
+	width: 170px;
+}
+div#contentClients div#blockRight{
+	border-left: 1px dashed #D1D1D1;
+	display: inline-block;
+	max-width: 26em;
+	min-height: 28em;
+	min-width: 18em;
+	padding: 1em;
+	vertical-align: top;
+}
+
+@media screen and (max-width: 1236px){
+	div#contentClients div#blockRight{ border: none; }
+}

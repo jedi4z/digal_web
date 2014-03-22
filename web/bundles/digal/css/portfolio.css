@@ -5,7 +5,10 @@
 */
 div#contentPortfolio{ padding: 2em 0; text-align: center; }
 div#contentPortfolio  div#works{ margin: 1em auto; max-width: 63em; text-align: left; }
-div#contentPortfolio  div.wrapperWork{ display: inline-block; height: 168px; margin: .5em; position: relative; text-align: left; width: 230px; }
+div#contentPortfolio  div.wrapperWork{ display: inline-block; height: 168px; margin: .5em; position: relative; width: 230px; }
 div#contentPortfolio  div.wrapperWork img{ height: 168px; width: 230px; }
 div#contentPortfolio  div.refWork{ -moz-transition: all 0.6s ease; -ms-transition: all 0.6s ease; -o-transition: all 0.6s ease; -webkit-transition: all 0.6s ease; background-color: #DC143C; color: #FFFFFF; height: 105px; opacity: 0; padding-top: 65px; position: absolute; text-align: center; top: 0; transition: all 0.6s ease; width: 230px; }
 div#contentPortfolio  div.wrapperWork:hover div.refWork{ opacity: .95; }
+@media screen and (max-width: 700px) {
+	div#contentPortfolio  div#works{ text-align: center; }
+}
