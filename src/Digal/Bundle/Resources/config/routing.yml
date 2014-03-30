@@ -23,7 +23,7 @@ web_our_services_tshirt:
     pattern:  /nuestros-servicios/remeras-estampadas
     defaults: { _controller: WebBundle:OurServices:tshirt }
 web_our_services_keychain_ribbon:
-    pattern:  /nuestros-servicios/llaveros-cinta-publicitarios
+    pattern:  /nuestros-servicios/llaveros-colgantes-publicitarios
     defaults: { _controller: WebBundle:OurServices:keychainRibbon }
 web_our_services_keychain_poli:
     pattern:  /nuestros-servicios/llaveros-polimero-publicitarios
