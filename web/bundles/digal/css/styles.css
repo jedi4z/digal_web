@@ -8,13 +8,13 @@ header{ background-color: #000000; overflow: hidden; padding: 0; }
 header #logo{ display: inline-block; float: left; margin: 0.5em 5em; }
 header #logo img{ margin: 0; max-height: 4em; min-height: 4em; }
 /* navbar -------------- */
-div#navbar{ background-color: #333; color: #F1F1F1; margin: 0; overflow: hidden; padding: 0; }
-div#navbar div#wrapper-navbar{ overflow: hidden; display: block; }
-div#navbar div#wrapper-navbar ul{ list-style: none; padding: .5em; float: right; }
-div#navbar div#wrapper-navbar ul li{ float: left; }
-div#navbar div#wrapper-navbar ul li:hover{ background-color: #F1F1F1; }
-div#navbar div#wrapper-navbar ul li a{ display: block; padding: .15em .3em;}
-div#navbar div#wrapper-navbar ul li a:hover{ color: #000000; }
+nav#navbar{ background-color: #333; color: #F1F1F1; margin: 0; overflow: hidden; padding: 0; }
+nav#navbar div#wrapper-navbar{ overflow: hidden; display: block; }
+nav#navbar div#wrapper-navbar ul{ list-style: none; padding: .5em; float: right; }
+nav#navbar div#wrapper-navbar ul li{ float: left; }
+nav#navbar div#wrapper-navbar ul li:hover{ background-color: #F1F1F1; }
+nav#navbar div#wrapper-navbar ul li a{ display: block; padding: .15em .3em;}
+nav#navbar div#wrapper-navbar ul li a:hover{ color: #000000; }
 /* social --------------*/
 div#social{ vertical-align: top; }
 div#social div#pinterest, div#gplus, div#facebook, div#twitter, div#linkedin{ float: left; font-family: 'Roboto', sans-serif; font-size: 1.2em; margin: 0 !important; min-height: 6em; min-width: 20%; padding-top: 1.5em; text-align: center; }
@@ -35,11 +35,11 @@ footer div#infContact{ display: inline-block; margin: 2.5em 0 2em 8em; vertical-
 
 /* media queries -------------- */
 @media screen and (max-width: 768px){ 
-	div#navbar ul{ font-size: 18px;}
-	div#navbar div#wrapper-navbar{ margin: 0 auto;}
-	div#navbar ul li{ width: 100%; background-color: #999999; -webkit-border-radius: 5px 5px 5px 5px; border-radius: 5px 5px 5px 5px; text-align: center; margin: 3px auto; padding: 10px 0; }
-	div#navbar ul li:hover{ background-color: #F1F1F1; }
-	div#navbar ul li a{ color: #000; }
+	nav#navbar ul{ font-size: 18px;}
+	nav#navbar div#wrapper-navbar{ margin: 0 auto;}
+	nav#navbar ul li{ width: 100%; background-color: #999999; -webkit-border-radius: 5px 5px 5px 5px; border-radius: 5px 5px 5px 5px; text-align: center; margin: 3px auto; padding: 10px 0; }
+	nav#navbar ul li:hover{ background-color: #F1F1F1; }
+	nav#navbar ul li a{ color: #000; }
 	div#social{ font-size: .6em; }
 	footer div#copyR{ display: none; }
 	footer div#infContact{ margin: 2.5em 4em; }

@@ -52,50 +52,52 @@
     <!-- header -->
     <header>
       <div id="logo">
-        <a href="{{path('web_home')}}"><img src="{{asset ('bundles/digal/images/logo.png')}}" alt="logo digal"></a>
+        <a href="{{path('web_home')}}" title="digal">
+          <img src="{{asset ('bundles/digal/images/logo.png')}}" alt="logo digal">
+        </a>
       </div>
     </header>
     <!-- navbar -->
-    <div id="navbar">
+    <nav id="navbar">
       <div id="wrapper-navbar">
         <ul>
-          <li><a href="{{path('web_home')}}">HOME</a></li>
-          <li><a href="{{path('web_about')}}">NOSOTROS</a></li>
-          <li><a href="{{path('web_our_services')}}">NUESTROS SERVICIOS</a></li>
-          <li><a href="{{path('web_clients')}}">CLIENTES</a></li>
-          <li><a href="{{path ('web_portfolio')}}">PORTFOLIO</a></li>
-          <li><a href="{{path ('web_contact')}}">CONTACTO</a></li>
+          <li><a href="{{path('web_home')}}" title="Home">HOME</a></li>
+          <li><a href="{{path('web_about')}}" title="Nosotros">NOSOTROS</a></li>
+          <li><a href="{{path('web_our_services')}}" title="Nuestros Servicios">NUESTROS SERVICIOS</a></li>
+          <li><a href="{{path('web_clients')}}" title="Clientes">CLIENTES</a></li>
+          <li><a href="{{path ('web_portfolio')}}" title="Portfolio">PORTFOLIO</a></li>
+          <li><a href="{{path ('web_contact')}}" title="Contacto">CONTACTO</a></li>
         </ul>
       </div>
-    </div>
+    </nav>
     {%block content%} {%endblock%}
     <!-- social -->
     <div id="social">
-      <a href="">
+      <a href="" title="Pinterest">
         <div id="pinterest">
           <img src="{{asset ('bundles/digal/images/social/pinterest.png')}}" alt="pinterest"><br>Pinterest<br>
           <span>Seguinos ></span>
         </div>
       </a>
-      <a href="https://plus.google.com/+DigalArg" target="blank">
+      <a href="https://plus.google.com/101588327404669956193" target="blank" title="Google Plus">
         <div id="gplus">
           <img src="{{asset ('bundles/digal/images/social/gplus.png')}}" alt="google plus"><br>Google +<br>
           <span>Seguinos ></span>
         </div>
       </a>
-      <a href="https://www.facebook.com/digalArg" target="blank">
+      <a href="https://www.facebook.com/digalArg" target="blank" title="Facebook">
         <div id="facebook">
             <img src="{{asset ('bundles/digal/images/social/facebook.png')}}" alt="facebook"><br>Facebook<br>
             <span>Seguinos ></span>
         </div>
       </a>
-      <a href="http://www.twitter.com/digalArg" target="blank">
+      <a href="http://www.twitter.com/digalArg" target="blank" title="Twitter">
         <div id="twitter">
             <img src="{{asset ('bundles/digal/images/social/twitter.png')}}" alt="twitter"><br>Twitter<br>
             <span>Seguinos ></span>
         </div>
       </a>
-      <a href="">
+      <a href="http://www.linkedin.com/company/efrain---estampados-y-merchandising" target="blank" title="Linkedin">
         <div id="linkedin">
             <img src="{{asset ('bundles/digal/images/social/linkedin.png')}}" alt="linkedin"><br>Linkedin<br>
             <span>Seguinos ></span>
@@ -105,20 +107,22 @@
     <!-- footer -->
     <footer>
       <div id="copyR">
-        <a href="{{ path('web_home') }}"><img src="{{asset ('bundles/digal/images/logo.png')}}" alt="logo digal"></a>
+        <a href="{{ path('web_home') }}" title="digal">
+          <img src="{{asset ('bundles/digal/images/logo.png')}}" alt="logo digal">
+        </a>
         <br> © 2014 Digal. All Rights Reserved
       </div>
       <div id="infContact">
         <h3>Argentina</h3>
         <ul>
           <li>
-              <img src="{{asset ('bundles/digal/images/contact/loc.gif')}}" alt="direccion"/> Tunuyán 2287, Córdoba, X5017EGE.
+            <img src="{{asset ('bundles/digal/images/contact/loc.gif')}}" alt="direccion"/> Tunuyán 2287, Córdoba, X5017EGE.
           </li>
           <li>
-              <img src="{{asset ('bundles/digal/images/contact/tel.gif')}}" alt="telefono"/> +54 351 156 067958
+            <img src="{{asset ('bundles/digal/images/contact/tel.gif')}}" alt="telefono"/> +54 351 156 067958
           </li>
           <li>
-              <img src="{{asset ('bundles/digal/images/contact/mail.png')}}" alt="mail"/> info@digal.com.ar
+            <img src="{{asset ('bundles/digal/images/contact/mail.png')}}" alt="mail"/> info@digal.com.ar
           </li>
         </ul>
       </div>
