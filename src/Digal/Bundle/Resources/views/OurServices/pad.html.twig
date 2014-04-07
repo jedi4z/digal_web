@@ -1,13 +1,13 @@
 {%extends "WebBundle:Templates:template_services.html.twig"%}
 
 
-{%block title%} {{parent()}} | Mouse pads personalizados{%endblock%}
+{%block title%}Mouse Pads Personalizados | Digal{%endblock%}
 
 {%block description%}Mouse pads personalizados, impresos en sublimación full color con antideslizante. Medidas 21x20cm. Podes estampar tu logo, almanaque, o lo que se te ocurra!.{%endblock%}
 
 {%block keywords%}mouse pad sublimado, pad para mouse personalizado, pad para mouse estampado, mouse pad por mayor, mouse pad para regalar, regalos empresariales, regalos publicitarios{%endblock%}
 
-{%block ogTitle%}{{parent()}}Mouse pads personalizados{%endblock%}
+{%block ogTitle%}Mouse pads personalizados | Digal{%endblock%}
 {%block ogDescription%}Mouse pads personalizados, impresos en sublimación full color con antideslizante. Medidas 21x20cm. Podes estampar tu logo, almanaque, o lo que se te ocurra!.{%endblock%}
 {%block ogImage%}{{asset ('bundles/digal/images/services/mousePads/mousePads.jpg')}}{%endblock%}
 
@@ -15,6 +15,9 @@
 <h1>MOUSE PADS PERSONALIZADOS</h1>
 <p>
        Mouse pads personalizados, impresos en sublimación full color con antideslizante. Medidas 21x20cm. Podes estampar tu logo, almanaque, o lo que se te ocurra!.
+</p>
+<p>
+    Para solicitar presupuesto llena el <a href="{{path('web_contact')}}" title="Contacto">formulario de contacto</a> y te contestamos en el dia!
 </p>
 <img src="{{asset ('bundles/digal/images/services/mousePads/mousePads.jpg')}}" alt="mouse pad digal">
 {%endblock%}

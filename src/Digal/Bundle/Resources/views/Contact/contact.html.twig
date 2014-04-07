@@ -7,7 +7,7 @@
 {%block keywords%}diseño web, remeras estampadas, publicidad en cordoba, articulos publicitarios en cordoba, merchandising cordoba, regalos empresariales, estampador serigrafia, ploteados, ploteados de vidrieras cordoba, serigrafia cordoba{%endblock%}
 
 
-{%block ogTitle%}{{parent()}}Contacto{%endblock%}
+{%block ogTitle%}{{parent()}} | Contacto{%endblock%}
 {%block ogDescription%}Somos una empresa que brinda servicios y soluciones de todo tipo para que tu negocio sea conocido y salga de lo común.100% Argentina, Totalmente independiente!{%endblock%}
 {%block ogImage%}{%endblock%}
 
@@ -24,14 +24,14 @@
 	<div id="wrapperForm">
 		<div id="boxInf"></div>
 		<form id="formContact" method="post" action="{{path ('web_sendConsult')}}">
-		    {{ form_errors(form.name)}}
-		    {{ form_widget(form.name , {'attr': {'placeholder': 'Nombre', 'class':'inputName'}})}}
-		    {{ form_errors(form.email)}}
-		    {{ form_widget(form.email, {'attr': {'placeholder': 'Email', 'class':'inputEmail'}})}}
-		    {{ form_errors(form.description) }}
+	    {{ form_errors(form.name)}}
+	    {{ form_widget(form.name , {'attr': {'placeholder': 'Nombre', 'class':'inputName'}})}}
+	    {{ form_errors(form.email)}}
+	    {{ form_widget(form.email, {'attr': {'placeholder': 'Email', 'class':'inputEmail'}})}}
+	    {{ form_errors(form.description) }}
 		 	{{ form_widget(form.description, {'attr': {'placeholder': 'Consulta', 'class':'textConsult'}})}}
 		 	{{ form_widget(form._token) }}
-		    <input type="submit" id="buttonSend" value="Enviar">
+	    <input type="submit" id="buttonSend" value="Enviar">
 		</form>
    </div>
 </div>
