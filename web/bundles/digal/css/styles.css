@@ -9,6 +9,8 @@ header #logo{ display: inline-block; float: left; margin: 0.5em 5em; }
 header #logo img{ margin: 0; max-height: 4em; min-height: 4em; }
 /* navbar -------------- */
 nav#navbar{ background-color: #333; color: #F1F1F1; margin: 0; overflow: hidden; padding: 0; }
+nav#navbar button#mobile-menu{ display: none; }
+nav#navbar div#mobile-logo{ display: none; }
 nav#navbar div#wrapper-navbar{ overflow: hidden; display: block; }
 nav#navbar div#wrapper-navbar ul{ list-style: none; padding: .5em; float: right; }
 nav#navbar div#wrapper-navbar ul li{ float: left; }
@@ -35,11 +37,19 @@ footer div#infContact{ display: inline-block; margin: 2.5em 0 2em 8em; vertical-
 
 /* media queries -------------- */
 @media screen and (max-width: 768px){ 
-	nav#navbar ul{ font-size: 18px;}
-	nav#navbar div#wrapper-navbar{ margin: 0 auto;}
-	nav#navbar ul li{ width: 100%; background-color: #999999; -webkit-border-radius: 5px 5px 5px 5px; border-radius: 5px 5px 5px 5px; text-align: center; margin: 3px auto; padding: 10px 0; }
-	nav#navbar ul li:hover{ background-color: #F1F1F1; }
-	nav#navbar ul li a{ color: #000; }
+  header{ display: none; }
+  nav#navbar{ background-color: #000; }
+  nav#navbar div#mobile-logo{ display: block; }
+  nav#navbar div#mobile-logo img{ height: 43px; margin: 10px; }
+  nav#navbar button#mobile-menu{ outline: none; border: 1px solid #666; display: inline-block; vertical-align: middle; float: left; padding: 5px 7px; margin: 10px; background-color: #111; -webkit-border-radius: 3px 3px 3px 3px; border-radius: 3px 3px 3px 3px; cursor: pointer; }
+  nav#navbar button#mobile-menu:active{ background-color: #333; }
+  nav#navbar button#mobile-menu img{ height: 30px; }
+  nav#navbar div#wrapper-navbar{ margin: 0 auto; width: 99%; text-align: left; display: none;}
+  nav#navbar div#wrapper-navbar ul{ font-size: 14px; width: 98%; }
+  nav#navbar div#wrapper-navbar ul li{ width: 100%; padding: 5px 0; border-top: 1px solid #D1D1D1; }
+	nav#navbar div#wrapper-navbar ul li:hover{ background-color: #F1F1F1; }
+  nav#navbar div#wrapper-navbar ul li:hover a{ color: #000000; }
+	nav#navbar div#wrapper-navbar ul li a{ color: #FFFFFF; }
 	div#social{ font-size: .6em; }
 	footer div#copyR{ display: none; }
 	footer div#infContact{ margin: 2.5em 4em; }

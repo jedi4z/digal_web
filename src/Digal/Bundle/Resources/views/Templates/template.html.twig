@@ -17,6 +17,10 @@
     <meta name="keywords" content="{%block keywords%}{%endblock%}"/>
     <!-- favicon -->
     <link rel="shortcut icon" type="image/ico" href="{{asset ('bundles/digal/images/favicon.png')}}">
+    <link rel="apple-touch-icon-precomposed" href="{{asset ('bundles/digal/images/favicon.png')}}" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{asset ('bundles/digal/images/favicon.png')}}" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{asset ('bundles/digal/images/favicon.png')}}" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{asset ('bundles/digal/images/favicon.png')}}" />
     <!-- OpenGraph Meta Tags -->
     <meta name="og:title" content="{%block ogTitle%}Digal{%endblock%}">
     <meta name="og:description" content="{%block ogDescription%}{%endblock%}">
@@ -59,6 +63,8 @@
     </header>
     <!-- navbar -->
     <nav id="navbar">
+      <button id="mobile-menu"><img src="{{ asset ('bundles/digal/images/mobile_menu.png') }}" alt="button menu"></button>
+      <div id="mobile-logo"><img src="{{asset ('bundles/digal/images/logo.png')}}" alt="logo digal"></div>
       <div id="wrapper-navbar">
         <ul>
           <li><a href="{{path('web_home')}}" title="Home">HOME</a></li>
@@ -79,7 +85,7 @@
           <span>Seguinos ></span>
         </div>
       </a>
-      <a href="https://plus.google.com/101588327404669956193" target="blank" title="Google Plus">
+      <a href="https://plus.google.com/+DigalArgentina" target="blank" title="Google Plus">
         <div id="gplus">
           <img src="{{asset ('bundles/digal/images/social/gplus.png')}}" alt="google plus"><br>Google +<br>
           <span>Seguinos ></span>
@@ -130,6 +136,7 @@
     <!-- scripts -->
     {%block scripts%}
         <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="{{asset ('bundles/digal/js/scripts.js')}}"></script>
     {%endblock%}
   </body>
 </html>
