@@ -4,18 +4,18 @@
     twitter    : @gbuuss
 */
 /* header -------------- */
-header{ background-color: #000000; overflow: hidden; padding: 0; }
+header{ background-color: #000000; overflow: hidden; padding: 0; width: 100%; }
 header #logo{ display: inline-block; float: left; margin: 0.5em 5em; }
-header #logo img{ margin: 0; max-height: 4em; min-height: 4em; }
+header #logo img{ margin-top: 5px; height: 50px; }
 /* navbar -------------- */
-nav#navbar{ background-color: #333; color: #F1F1F1; margin: 0; overflow: hidden; padding: 0; }
+nav#navbar{ background-color: #000000; color: #F1F1F1; margin: 0; overflow: hidden; padding: 0; width: 100%; font-size: 13px; }
 nav#navbar button#mobile-menu{ display: none; }
 nav#navbar div#mobile-logo{ display: none; }
 nav#navbar div#wrapper-navbar{ overflow: hidden; display: block; }
 nav#navbar div#wrapper-navbar ul{ list-style: none; padding: .5em; float: right; }
 nav#navbar div#wrapper-navbar ul li{ float: left; }
 nav#navbar div#wrapper-navbar ul li:hover{ background-color: #F1F1F1; }
-nav#navbar div#wrapper-navbar ul li a{ display: block; padding: .15em .3em;}
+nav#navbar div#wrapper-navbar ul li a{ display: block; padding: 0 .3em;}
 nav#navbar div#wrapper-navbar ul li a:hover{ color: #000000; }
 /* social --------------*/
 div#social{ vertical-align: top; }
@@ -29,7 +29,7 @@ div#social div#facebook{ background-color: #3B5B98; }
 div#social div#twitter{ background-color: #1BB2E9; }
 div#social div#linkedin{ background-color: #017EB4; }
 /* footer -------------- */
-footer{ background-color: #000000; color: #FFFFFF; font-size: 0.8em; margin: 0; padding: 0; }
+footer{ background-color: #000000; color: #FFFFFF; font-size: 0.7em; margin: 0; padding: 0; }
 footer h3{ color: #FF0000; }
 footer div#copyR{ display: inline-block; margin: 2em 0 2em 5em; vertical-align: top; }
 footer div#copyR img{ margin-bottom: 1em; max-height: 4.5em; min-height: 4.5em; }
@@ -37,7 +37,7 @@ footer div#infContact{ display: inline-block; margin: 2.5em 0 2em 8em; vertical-
 
 /* media queries -------------- */
 @media screen and (max-width: 768px){ 
-  header{ display: none; }
+  header div#logo{ display: none; }
   nav#navbar{ background-color: #000; }
   nav#navbar div#mobile-logo{ display: block; }
   nav#navbar div#mobile-logo img{ height: 43px; margin: 10px; }

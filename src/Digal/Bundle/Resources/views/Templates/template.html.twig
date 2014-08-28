@@ -30,8 +30,8 @@
     <meta name="og:type" content="website">
     <!-- stylesheets -->
     {%block stylesheets%}
-        <link rel="stylesheet" href="{{asset ('bundles/digal/css/resets.css')}}">
-        <link rel="stylesheet" href="{{asset ('bundles/digal/css/styles.css')}}">
+    <link rel="stylesheet" href="{{asset ('bundles/digal/css/resets.css')}}">
+    <link rel="stylesheet" href="{{asset ('bundles/digal/css/styles.css')}}">
     {%endblock%}
     <!-- fonts -->
     <link href='http://fonts.googleapis.com/css?family=Sintony' rel='stylesheet' type='text/css'>
@@ -60,22 +60,22 @@
           <img src="{{asset ('bundles/digal/images/logo.png')}}" alt="logo digal">
         </a>
       </div>
+      <!-- navbar -->
+      <nav id="navbar">
+        <button id="mobile-menu"><img src="{{ asset ('bundles/digal/images/mobile_menu.png') }}" alt="button menu"></button>
+        <div id="mobile-logo"><img src="{{asset ('bundles/digal/images/logo.png')}}" alt="logo digal"></div>
+        <div id="wrapper-navbar">
+          <ul>
+            <li><a href="{{path('web_home')}}" title="Home">HOME</a></li>
+            <li><a href="{{path('web_about')}}" title="Nosotros">NOSOTROS</a></li>
+            <li><a href="{{path('web_our_services')}}" title="Nuestros Servicios">NUESTROS SERVICIOS</a></li>
+            <li><a href="{{path('web_clients')}}" title="Clientes">CLIENTES</a></li>
+            <li><a href="{{path ('web_portfolio')}}" title="Portfolio">PORTFOLIO</a></li>
+            <li><a href="{{path ('web_contact')}}" title="Contacto">CONTACTO</a></li>
+          </ul>
+        </div>
+      </nav>
     </header>
-    <!-- navbar -->
-    <nav id="navbar">
-      <button id="mobile-menu"><img src="{{ asset ('bundles/digal/images/mobile_menu.png') }}" alt="button menu"></button>
-      <div id="mobile-logo"><img src="{{asset ('bundles/digal/images/logo.png')}}" alt="logo digal"></div>
-      <div id="wrapper-navbar">
-        <ul>
-          <li><a href="{{path('web_home')}}" title="Home">HOME</a></li>
-          <li><a href="{{path('web_about')}}" title="Nosotros">NOSOTROS</a></li>
-          <li><a href="{{path('web_our_services')}}" title="Nuestros Servicios">NUESTROS SERVICIOS</a></li>
-          <li><a href="{{path('web_clients')}}" title="Clientes">CLIENTES</a></li>
-          <li><a href="{{path ('web_portfolio')}}" title="Portfolio">PORTFOLIO</a></li>
-          <li><a href="{{path ('web_contact')}}" title="Contacto">CONTACTO</a></li>
-        </ul>
-      </div>
-    </nav>
     {%block content%} {%endblock%}
     <!-- social -->
     <div id="social">
@@ -135,8 +135,9 @@
     </footer>
     <!-- scripts -->
     {%block scripts%}
-        <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-        <script src="{{asset ('bundles/digal/js/scripts.js')}}"></script>
+      <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+      <script src="{{asset ('bundles/digal/js/jquery.sticky.js')}}"></script>
+      <script src="{{asset ('bundles/digal/js/scripts.js')}}"></script>
     {%endblock%}
   </body>
 </html>
